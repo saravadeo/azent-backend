@@ -12,4 +12,15 @@ export class Constants {
     ELASTIC_SEARCH_URL      : 'elastic.search.url',
   };
   
+  public static InjectionParams = {
+    MONGOOSE      : 'MONGOOSE',
+    ELASTIC_SEARCH: 'ELASTIC_SEARCH',
+    LOGGER        : 'logger',
+  };
+  public static ModelNames      = {
+    UNIVERSITY: 'UNIVERSITY',
+  };
+  public static CollectionNames = {
+    UNIVERSITY: 'UNIVERSITY',
+  };
 }
