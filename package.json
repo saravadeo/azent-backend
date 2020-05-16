@@ -28,6 +28,7 @@
     "@types/elasticsearch": "^5.0.36",
     "@types/mongoose": "^5.7.19",
     "mongoose": "^5.9.14",
+    "open-graph-scraper": "^3.6.2",
     "properties-reader": "^2.0.0",
     "reflect-metadata": "^0.1.13",
     "rimraf": "^3.0.2",
