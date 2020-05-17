@@ -14,8 +14,7 @@ export class Constants {
   
   public static InjectionParams = {
     MONGOOSE      : 'MONGOOSE',
-    ELASTIC_SEARCH: 'ELASTIC_SEARCH',
-    LOGGER        : 'logger',
+    ELASTIC_SEARCH: 'ELASTIC_SEARCH'
   };
   public static ModelNames      = {
     UNIVERSITY: 'UNIVERSITY',
