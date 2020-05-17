@@ -7,7 +7,6 @@ if data not found in a database.
     NodeJS
     NestJS
     MongoDB
-    ElasticSearch
     
 ## Install
 
