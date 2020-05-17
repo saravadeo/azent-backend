@@ -15,6 +15,7 @@ Simple backend service with REST API for university search.
 ## Run the app on local
 
     npm run start:dev
+*Note: Update `resources/config-dev.properties` depending on your local configurations
 
 ## Build the app
 
@@ -56,6 +57,64 @@ Query Params
               "university_id": "5ec0085d681ca3173ef5f5e4",
               "id": "5ec0085d681ca3173ef5f5e4"
             },
+            ..
            ],
-          "totalCount": 1 
+          "totalCount": 1.. 
+        }
+        
+## Get domain extension list
+
+### Request
+
+`GET /university/domain-extensions`
+
+### Response
+
+        {
+          "status": "success",
+          "domainExtensions": [
+            {
+              "_id": ".ab.ca"
+            },
+            {
+              "_id": ".ac"
+            },
+            ...
+          ]
+        } 
+        
+## Get country code list
+
+### Request
+
+`GET /university/country-codes`
+
+### Response
+
+        {
+          "status": "success",
+          "countryCodes": [
+            "US",
+            ...
+          ]
+        }
+        
+## Get Metatag details for URL
+
+### Request
+
+`GET /scrap`
+
+Query Params
+
+        url: <<string>>,
+
+### Response
+
+        {
+          "ogImage": {
+            "url": "https://www.adelphi.edu/wp-content/themes/adelphi.edu/img/facebook.gif?t=1500923331-9942-b",
+          },
+          "ogTitle": "Adelphi University | Higher Education College on Long Island, NY",
+          "ogDescription": "Learn more about Long Island's oldest university for master's and bachelor’s degrees. Named best college by Princeton Review - Adelphi University."
         }
