@@ -10,7 +10,7 @@ import { UniversityService }       from 'src/university/services/university.serv
     controllers: [ UniversityController ],
     imports    : [],
     exports    : [],
-    providers  : [ universityModelProvider, UniversityService, elasticSearchProvider ],
+    providers  : [ universityModelProvider, UniversityService ],
   },
 )
 export class UniversityModule {
