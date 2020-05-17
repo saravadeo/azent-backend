@@ -1,5 +1,6 @@
 # Azent Backend - University
-Simple backend service with REST API for university search.
+Simple backend service with REST API for university search. On application start, service automatically create data
+if data not found in a database.
 
 ## Technology
 
